@@ -1,0 +1,33 @@
+__default__:
+  mem: 31G
+  queue: normal
+  time: '01:00:00'
+  jobfs: 100G
+
+qcreads:
+  time: '0:10:00'
+
+readstats:
+  time: '0:10:00'
+
+ngmap:
+  time: '6:00:00'
+
+bwamem:
+  time: '8:00:00'
+
+mergebam:
+  time: '4:00:00'
+
+freebayes_ful:
+  time: '160:00:00'
+  jobfs: 400G
+
+freebayes:
+  time: '36:00:00'
+
+mpileup:
+  time: '3:00:00'
+
+bcfmerge:
+  time: '3:00:00'
